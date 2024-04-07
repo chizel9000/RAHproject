@@ -1,0 +1,224 @@
+* { margin: 0; padding: 0;  }
+
+@media only screen and (max-width: 700px) {
+    
+    #navbar{
+    display:none;
+    position:absolute;
+    top: 20%;
+    width:25%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    
+}
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: red;
+}
+    
+}
+
+
+@media only screen and (min-width: 700px){
+    #navbar{
+    display:none;
+    position:fixed;
+    top: 50%;
+    width:15%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    z-index:20;
+    
+}
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:3em;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: red;
+}
+}
+body { 
+                        
+    background: #000;
+     }
+
+.footer {
+    
+    top: 25%;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    
+}
+
+.fcard a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:0.5em;
+    margin-top:5%;
+}
+
+.fcard h1 {
+    color: #f5ca00;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:0.75em;
+}
+
+.fcard p {
+    font-size:0.35em;
+    color:grey;
+    margin:5% 0%;
+}
+
+.fl{
+    width:100%;
+    display:block;
+    list-style-type: none;
+    position:relative;
+}
+.fl li {
+    text-decoration: none;
+    width:25%;
+    height:75%;
+    margin:0% 0%;
+    padding:0%;
+    float:left;
+    
+}
+
+.fl a {
+    width:50%;
+    background:grey;
+    margin:auto;
+    font-size:0.6em;
+}
+
+
+.footer li a:hover{}
+
+#bgxc {position:absolute;  height:100%; width:100%; z-index:-20;}
+.bg {position:absolute; display: block; height:100%; width:100%; z-index:-20;}
+#bgxTop {position:relative; height:50%; width:100%; }
+#bgx {position:absolute; bottom:0px; height:50%; width:100%; object-fit:cover; }
+#logo{
+    float:left;
+    height:100%;
+    width:100%;
+}
+#logo img {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.card {
+    
+    position:relative;
+    float:left;
+    height:100%;
+    width:100%;
+}
+.card img {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.fcard {
+    display: block;
+    float:left;
+    height:100%;
+    width:33%;
+    margin:auto;
+    text-align:center;
+}
+.hwcard {
+    display: block;
+   
+    height:100%;
+    width:50%;
+    margin:auto;
+}
+.hwcard2 {
+    display: block;
+   
+    height:100%;
+    width:100%;
+    margin:auto;
+}
+.hwcard2 img {
+    height:50%;
+    width:50%;
+    margin-left:25%;
+}
+.hwcard img {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.hhcard {
+    display: block;
+    float:left;
+    position:absolute;
+    top:25%;
+    height:50%;
+    width:100%;
+    margin:0;
+}
+.hhcard img {
+    position:relative;
+    height:100%;
+    width:100%;
+}
+.left {float:left;}
+.right {float:right;}
+.center {margin:auto;}
+.vert { height:50%; position:absolute; top:30%; left:25%;}
+.pill {
+    width:22%;
+    height:100%;
+}
+.spill {
+    width:20%;
+    height:50%;
+}
