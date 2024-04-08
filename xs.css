@@ -71,6 +71,23 @@
     background-color: red;
 }
 }
+#anim2{position: absolute;}
+.anim-rightin{
+    position: absolute;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+    
+}
+
+@keyframes example {
+  from   { left:100%; top:0px; opacity:0;}
+  to { left:0px; top:0px; opacity:1;}
+  
+}
+
 body { 
                         
     background: #000;
