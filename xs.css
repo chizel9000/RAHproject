@@ -3,7 +3,7 @@
 @media only screen and (max-width: 700px) {
     
     #navbar{
-    display:none;
+    display:block;
     position:absolute;
     top: 20%;
     width:25%;
@@ -39,7 +39,7 @@
 
 @media only screen and (min-width: 700px){
     #navbar{
-    display:none;
+    display:block;
     position:fixed;
     top: 50%;
     width:15%;
@@ -75,7 +75,7 @@
 .anim-rightin{
     position: absolute;
   animation-name: example;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
@@ -86,6 +86,27 @@
   from   { left:100%; top:0px; opacity:0;}
   to { left:0px; top:0px; opacity:1;}
   
+}
+
+.fadeIn{
+    animation: fader 2s ease 1 forwards;
+}
+@keyframes fader {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+#navbar {
+    opacity:0;
+    left:-100px;
+    transition: opacity 2s ease 0s, left 2s ease 0s;
+}
+
+.hover{
+    animation: hover 3s ease infinite alternate;
+}
+@keyframes hover{
+    from {top:0px;}
+    to {top:25px;}
 }
 
 body { 
@@ -161,6 +182,7 @@ body {
 #bgx {position:absolute; bottom:0px; height:50%; width:100%; object-fit:cover; }
 #logo{
     float:left;
+    position:absolute;
     height:100%;
     width:100%;
 }

@@ -7,6 +7,10 @@ var bod = document.body;
 bod.style.height = viewHEIGHT;
 bod.style.width = viewWIDTH;
 
+var top = document.getElementById("tc");
+top.style.height = viewHEIGHT*0.25+"px";    
+var logo = document.getElementById("logo");
+logo.style.height = viewHEIGHT*0.25+"px";
 //var vid = document.getElementById("bgxc");
 //vid.style.height = viewHEIGHT+"px";
 //vid.style.width = viewWIDTH+"px";
@@ -52,8 +56,8 @@ console.log("h ",viewHEIGHT,"w ",viewWIDTH);
 
 function navigate(){
     var nav = document.getElementById("navbar");
-    if(nav.style.display != "block")
-    nav.style.display = "block";
+    if(nav.style.opacity != 1)
+    {nav.style.opacity = 1; nav.style.left = 0;}
     else
-        nav.style.display = "none";
+        {nav.style.opacity = 0; nav.style.left = -100+"px";}
 }
