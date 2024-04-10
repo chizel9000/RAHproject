@@ -122,14 +122,20 @@ body {
 #title h1 {
    
     top:2%;
+    font-family: fantasy;
     font-size: 2em;
-    color:red;
+    font-variant: small-caps;
+    color:orange;
+    letter-spacing: .2rem;
+    text-shadow: black 0px 2px 1px
 }
 #title h2 {
     top:5%;
     padding:1em;
+    font-family:fangsong;
     font-size: 1em;
     color:whitesmoke;
+    text-shadow: black 0px 2px 1px
 }
 #scroll{
     background:url("img/sbg.png");
@@ -181,15 +187,19 @@ body {
     color:#fff;
 }
 #nu {
+    font-family:monospace;
     font-size: 2em;
     text-align:center;
-    color:#fff;
+    font-weight: bold;
+    color:lemonchiffon;
 }
 
 #deta{
+    font-family:sans-serif;
     font-size: 1em;
     text-align:left;
     padding:1em;
+    color:whitesmoke;
 }
 
 .footer {
