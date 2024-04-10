@@ -112,7 +112,85 @@
 body { 
                         
     background: #000;
+    
      }
+#title  {
+    text-align:center;
+     top:5%;
+    position:relative;
+}
+#title h1 {
+   
+    top:2%;
+    font-size: 3em;
+    color:red;
+}
+#title h2 {
+    top:5%;
+    padding:1em;
+    font-size: 1em;
+    color:whitesmoke;
+}
+#scroll{
+    background:url(img/sbg.png);
+    background-size: contain;
+    overflow:hidden;
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.scroll {
+    border:orange solid 1px;
+    width:100%;
+    height:50%;
+    position:relative;
+     
+}
+.slide {
+    position:absolute;
+    flex-direction: row;
+    left:0px;
+    height:50%;
+    width:25%;
+    transition: width 2s ease 0s, height 2s ease 0s, left 2s ease 0s, opacity 2s ease 0s;
+    z-index:1;
+    opacity:0;
+    
+}
+.activeSlide {
+    height:100%;
+    width:60%;
+    z-index:3;
+    opacity:1;
+    
+}
+.nextSlide {
+    height:75%;
+    width:40%;
+    z-index:2;
+    opacity:0.5;
+}
+
+#deets{
+    width:100%;
+    position:absolute;
+    margin:auto;
+    bottom:10%;
+    color:#fff;
+}
+#nu {
+    font-size: 2em;
+    text-align:center;
+    color:#fff;
+}
+
+#deta{
+    font-size: 1em;
+    text-align:left;
+    padding:1em;
+}
 
 .footer {
     
