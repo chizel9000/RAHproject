@@ -338,8 +338,11 @@ body {
     width:100%;
 }
 .left {float:left;}
+.bottom{position:absolute; bottom:25%;}
+.hw{width:50%;}
 .right {float:right;}
 .center {margin:auto;}
+.center2{margin-left:25%;}
 .vert { height:50%; position:absolute; top:30%; left:25%;}
 .pill {
     width:22%;
