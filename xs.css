@@ -71,6 +71,7 @@
     background-color: red;
 }
 }
+#anim3{overflow:hidden;}
 #anim2{position: absolute;}
 .anim-rightin{
     position: absolute;
@@ -338,7 +339,7 @@ body {
     width:100%;
 }
 .left {float:left;}
-.bottom{position:absolute; bottom:25%;}
+.bottom{position:absolute; bottom:0;}
 .hw{width:50%;}
 .right {float:right;}
 .center {margin:auto;}
