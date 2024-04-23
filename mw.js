@@ -11,8 +11,10 @@ const viewHEIGHT = Math.floor(innerHeight);
 //bod.style.width = viewWIDTH;
 
 var top = document.getElementById("tc");
+    if(top)
 top.style.height = viewHEIGHT+"px";    
 var logo = document.getElementById("logo");
+    if(logo)
 logo.style.height = viewHEIGHT*0.25+"px";
     
 var welcome = document.getElementById("welcome");
