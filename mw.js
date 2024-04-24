@@ -6,13 +6,16 @@ window.addEventListener("resize", (event) => { scale(); });
 function scale(){
 const viewWIDTH = Math.floor(innerWidth);
 const viewHEIGHT = Math.floor(innerHeight);
+    
 //var bod = document.body;
 //bod.style.height = viewHEIGHT;
 //bod.style.width = viewWIDTH;
-if(viewWIDTH < 500){
-var top = document.getElementById("tc");
+    var top = document.getElementById("tc");
     if(top)
-top.style.height = viewHEIGHT+"px";    
+top.style.height = viewHEIGHT+"px"; 
+    
+if(viewWIDTH < 500){
+   
 var logo = document.getElementById("logo");
     if(logo)
 logo.style.height = viewHEIGHT*0.25+"px";
@@ -32,9 +35,7 @@ action.style.height = viewHEIGHT+"px";
     }
 }
 else{
-    var top = document.getElementById("tc");
-    if(top)
-        top.style.height = viewHEIGHT+"px"; 
+    
     var logo = document.getElementById("logo");
     if(logo)
        { logo.style.height = viewHEIGHT*0.5+"px";
@@ -45,7 +46,9 @@ else{
     if(welcome)
        welcome.style.height = viewHEIGHT*0.5+"px";
 }
-
+//var crew = document.getElementById("crew");
+//crew.style.height = viewHEIGHT*1.25+"px";
+    
 var foot = document.getElementById("foot");
 foot.style.height = viewHEIGHT*0.5+"px";
 

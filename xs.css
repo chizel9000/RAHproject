@@ -1,6 +1,15 @@
 * { margin: 0; padding: 0;  }
 
 @media only screen and (max-width: 500px) {
+ 
+    .card span{
+    font-weight: bold;
+    text-align:center;
+    font-size:2em;
+}
+.card p {
+    font-size:1.5em;
+}
     
     #navbar{
     display:block;
@@ -33,18 +42,154 @@
 #navbar li a:hover {
     background-color: red;
 }
+ 
+.fcard a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:0.5em;
+    margin-top:5%;
+}
+
+.fcard h1 {
+    color: #f5ca00;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:0.75em;
+}
+
+.fcard p {
+    font-size:0.35em;
+    color:grey;
+    margin:5% 5%;
+}
+
+.fl{
+    width:100%;
+    display:block;
+    list-style-type: none;
+    position:relative;
+}
+.fl li {
+    text-decoration: none;
+    width:25%;
+    height:75%;
+    margin:0% 0%;
+    padding:0%;
+    float:left;
+    
+}
+
+.fl a {
+    width:50%;
+    background:grey;
+    margin:auto;
+    font-size:0.6em;
+}
+
+
+.footer li a:hover{}
+
+#title  {
+    text-align:center;
+     top:2%;
+    position:relative;
+}
+#title h1 {
+   
+    top:0%;
+    font-family: fantasy;
+    font-size: 2em;
+    font-variant: small-caps;
+    color:orange;
+    letter-spacing: .2rem;
+    text-shadow: black 0px 2px 1px
+}
+#title h2 {
+    top:2%;
+    padding:0.5em;
+    font-family:fangsong;
+    font-size: 1em;
+    color:whitesmoke;
+    text-shadow: black 0px 2px 1px
+}
+    
+#deets{
+    width:100%;
+    position:absolute;
+    margin:auto;
+    bottom:5%;
+    color:#fff;
+}
+#nu {
+    font-family:monospace;
+    font-size: 2em;
+    text-align:center;
+    font-weight: bold;
+    color:lemonchiffon;
+}
+
+#deta{
+    font-family:sans-serif;
+    font-size: 1em;
+    text-align:left;
+    padding:1em;
+    color:whitesmoke;
+}
+
+#scroll{
+    background:url("img/sbg.png");
+    background-size: contain;
+    overflow:hidden;
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:50%;
+}
+.slide {
+    position:absolute;
+    flex-direction: row;
+    left:0px;
+    height:50%;
+    width:25%;
+    transition: width 2s ease 0s, height 2s ease 0s, left 2s ease 0s, margin-left 2s ease 0s, opacity 2s ease 0s;
+    z-index:1;
+    opacity:0;
+    
+}
+    .activeSlide {
+    height:100%;
+    width:70%;
+    margin-left:-5%;
+    z-index:3;
+    opacity:1;
+    
+}
     
 }
 
 
 @media only screen and (min-width: 500px){
     
+.card span{
+    font-weight: bold;
+    text-align:center;
+    font-size:2em;
+}
+.card p {
+    font-size:1.5em;
+}
     
     #navbar{
     display:block;
     position:fixed;
     top: 50%;
-    width:25%;
+    width:20%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -72,7 +217,139 @@
 #navbar li a:hover {
     background-color: red;
 }
+
+.fcard a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;
+    margin-top:2%;
 }
+
+.fcard h1 {
+    color: #f5ca00;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+}
+
+.fcard p {
+    font-size:1em;
+    color:grey;
+    margin:2% 2%;
+}
+
+.fl{
+    width:100%;
+    display:block;
+    list-style-type: none;
+    position:relative;
+}
+.fl li {
+    text-decoration: none;
+    width:25%;
+    height:75%;
+    margin:0% 0%;
+    padding:0%;
+    float:left;
+    
+}
+
+.fl a {
+    width:50%;
+    background:grey;
+    margin:auto;
+    font-size:1em;
+}
+
+
+.footer li a:hover{}
+    
+#title  {
+    text-align:center;
+     top:1%;
+    position:relative;
+}
+#title h1 {
+   position:relative;
+    top:0%;
+    font-family: fantasy;
+    font-size: 4em;
+    font-variant: small-caps;
+    color:orange;
+    letter-spacing: .2rem;
+    text-shadow: black 0px 2px 1px
+}
+#title h2 {
+    top:5%;
+    padding:0.5em;
+    font-family:fangsong;
+    font-size: 2em;
+    color:whitesmoke;
+    text-shadow: black 0px 2px 1px
+}
+    
+#deets{
+    width:100%;
+    position:absolute;
+    margin:auto;
+    bottom:1%;
+    color:#fff;
+}
+#nu {
+    font-family:monospace;
+    font-size: 4em;
+    text-align:center;
+    font-weight: bold;
+    color:lemonchiffon;
+}
+
+#deta{
+    font-family:sans-serif;
+    font-size: 2em;
+    text-align:center;
+    padding:0.25em;
+    color:whitesmoke;
+}
+
+#scroll{
+    background:url("img/sbg.png");
+    background-size: contain;
+    overflow:hidden;
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction:column;
+    flex-wrap:wrap;
+    height:60%;
+    
+}
+.slide {
+    position:absolute;
+    flex-direction: row;
+    left:0px;
+    height:50%;
+    width:25%;
+    transition: width 2s ease 0s, height 2s ease 0s, left 2s ease 0s, margin-left 2s ease 0s, opacity 2s ease 0s;
+    z-index:1;
+    opacity:0;
+    
+}    
+.activeSlide {
+    height:100%;
+    width:50%;
+    margin-left:5%;
+    z-index:3;
+    opacity:1;
+    
+}
+    
+}
+
+
 #anim3{overflow:hidden;}
 #anim2{position: absolute;}
 .anim-rightin{
@@ -115,8 +392,23 @@
 body { 
                         
     background: #000;
-    
+    height:100%;
+    width:100%;
      }
+/*
+#top{
+    height:100%;
+    width:100%;
+  }
+#tc{
+    height:100%;
+    width:100%;
+  }
+#welcome{
+    height:100%;
+    width:50%;
+  }
+*/
 .lc{
     
     position:relative;
@@ -182,39 +474,8 @@ body {
     background-color:lightgray;
     background-size: cover;
 }
-#title  {
-    text-align:center;
-     top:5%;
-    position:relative;
-}
-#title h1 {
-   
-    top:2%;
-    font-family: fantasy;
-    font-size: 2em;
-    font-variant: small-caps;
-    color:orange;
-    letter-spacing: .2rem;
-    text-shadow: black 0px 2px 1px
-}
-#title h2 {
-    top:5%;
-    padding:1em;
-    font-family:fangsong;
-    font-size: 1em;
-    color:whitesmoke;
-    text-shadow: black 0px 2px 1px
-}
-#scroll{
-    background:url("img/sbg.png");
-    background-size: contain;
-    overflow:hidden;
-    display:flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction:column;
-    flex-wrap:wrap;
-}
+
+
 .scroll {
     border:orange solid 1px;
     width:100%;
@@ -222,53 +483,17 @@ body {
     position:relative;
      
 }
-.slide {
-    position:absolute;
-    flex-direction: row;
-    left:0px;
-    height:50%;
-    width:25%;
-    transition: width 2s ease 0s, height 2s ease 0s, left 2s ease 0s, opacity 2s ease 0s;
-    z-index:1;
-    opacity:0;
-    
-}
-.activeSlide {
-    height:100%;
-    width:60%;
-    z-index:3;
-    opacity:1;
-    
-}
+
+
 .nextSlide {
     height:75%;
     width:40%;
     z-index:2;
     opacity:0.5;
+    margin-left:0%;
 }
 
-#deets{
-    width:100%;
-    position:absolute;
-    margin:auto;
-    bottom:10%;
-    color:#fff;
-}
-#nu {
-    font-family:monospace;
-    font-size: 2em;
-    text-align:center;
-    font-weight: bold;
-    color:lemonchiffon;
-}
 
-#deta{
-    font-family:sans-serif;
-    font-size: 1em;
-    text-align:left;
-    padding:1em;
-    color:whitesmoke;
-}
 
 .footer {
     
@@ -282,55 +507,6 @@ body {
     
 }
 
-.fcard a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size:0.5em;
-    margin-top:5%;
-}
-
-.fcard h1 {
-    color: #f5ca00;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size:0.75em;
-}
-
-.fcard p {
-    font-size:0.35em;
-    color:grey;
-    margin:5% 0%;
-}
-
-.fl{
-    width:100%;
-    display:block;
-    list-style-type: none;
-    position:relative;
-}
-.fl li {
-    text-decoration: none;
-    width:25%;
-    height:75%;
-    margin:0% 0%;
-    padding:0%;
-    float:left;
-    
-}
-
-.fl a {
-    width:50%;
-    background:grey;
-    margin:auto;
-    font-size:0.6em;
-}
-
-
-.footer li a:hover{}
 
 #bgxc {position:absolute;  height:100%; width:100%; z-index:-20;}
 .bg {position:absolute; display: block; height:100%; width:100%; z-index:-20;}
@@ -381,14 +557,7 @@ button{
     height:100%;
     width:100%;
 }
-.card span{
-    font-weight: bold;
-    text-align:center;
-    font-size:2em;
-}
-.card p {
-    font-size:1.5em;
-}
+
 .fcard {
     display: block;
     float:left;
@@ -397,9 +566,7 @@ button{
     margin:auto;
     text-align:center;
 }
-.fcard p{
-    font-size:0.5em;
-}
+
 .ocard {
     display: block;
     float:left;
