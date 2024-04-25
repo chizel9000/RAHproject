@@ -194,6 +194,7 @@
 .listitem img {
     height:100px;
     width:100px;
+    margin-left:10%;
     /*background-color: whitesmoke;*/
 }
 .listitem span{
