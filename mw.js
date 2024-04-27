@@ -1,11 +1,125 @@
 window.addEventListener("load", (event) => { scale(); });
 window.addEventListener("resize", (event) => { scale(); });
 
+var myDiv = document.getElementById("crew");
+if(myDiv)
+var clist = myDiv.querySelectorAll(".card > .fcard");
+//console.log(myDiv);
+//console.log(clist);
 
+if(myDiv)
+var clist2 = myDiv.querySelectorAll(".card > .fcard > .hwcard");
+//console.log(clist2);
+
+var myDiv2 = document.getElementById("rep");
+if(myDiv2)
+var tlist = myDiv2.querySelectorAll(".fcard");
 
 function scale(){
 const viewWIDTH = Math.floor(innerWidth);
 const viewHEIGHT = Math.floor(innerHeight);
+    if(clist)
+    clist.forEach((item) => {
+     if(viewWIDTH < 500){
+         item.classList.add("card");
+        item.classList.remove("fcard");
+        }
+    else{
+        item.classList.add("fcard");
+        item.classList.remove("card");
+        }
+}); 
+     if(clist2)
+    clist2.forEach((item) => {
+     if(viewWIDTH < 500){
+         item.classList.add("card");
+        item.classList.remove("hwcard");
+        }
+    else{
+        item.classList.add("hwcard");
+        item.classList.remove("card");
+        }
+}); 
+    
+    if(tlist)
+    tlist.forEach((item) => {
+     if(viewWIDTH < 500){
+         item.classList.add("card");
+        item.classList.remove("fcard");
+        }
+    else{
+        item.classList.add("fcard");
+        item.classList.remove("card");
+        }
+}); 
+
+    
+    if(viewWIDTH < 500){
+        var mc = document.getElementById("mescen");
+        if(mc){
+        mc.classList.remove("hwcard");
+        mc.classList.add("card");
+        }
+        var bb = document.getElementById("billboard");
+        if(bb){
+        bb.classList.remove("hwcard");
+        bb.classList.add("card");
+        }
+        var mc = document.getElementById("mission");
+        if(mc){
+        mc.classList.remove("hwcard");
+        mc.classList.add("card");
+        }
+        var bb = document.getElementById("vision");
+        if(bb){
+        bb.classList.remove("hwcard");
+        bb.classList.add("card");
+        }
+        var mc = document.getElementById("p1");
+        if(mc){
+        mc.classList.remove("hwcard");
+        mc.classList.add("card");
+        }
+        var bb = document.getElementById("p2");
+        if(bb){
+        bb.classList.remove("hwcard");
+        bb.classList.add("card");
+        }
+    }
+    else{
+        var mc = document.getElementById("mescen");
+        if(mc){
+        mc.classList.remove("card");
+        mc.classList.add("hwcard");
+        }
+        var bb = document.getElementById("billboard");
+        if(bb){
+        bb.classList.remove("card");
+        bb.classList.add("hwcard");
+        }
+        var mc = document.getElementById("mission");
+        if(mc){
+        mc.classList.remove("card");
+        mc.classList.add("hwcard");
+        }
+        var bb = document.getElementById("vision");
+        if(bb){
+        bb.classList.remove("card");
+        bb.classList.add("hwcard");
+        }
+        //p1 n p2
+        var mc = document.getElementById("p1");
+        if(mc){
+        mc.classList.remove("card");
+        mc.classList.add("hwcard");
+        }
+        var bb = document.getElementById("p2");
+        if(bb){
+        bb.classList.remove("card");
+        bb.classList.add("hwcard");
+        }
+    }
+    
     
 //var bod = document.body;
 //bod.style.height = viewHEIGHT;
@@ -49,8 +163,8 @@ else{
 //var crew = document.getElementById("crew");
 //crew.style.height = viewHEIGHT*1.25+"px";
     
-var foot = document.getElementById("foot");
-foot.style.height = viewHEIGHT*0.5+"px";
+//var foot = document.getElementById("foot");
+//foot.style.height = viewHEIGHT*0.5+"px";
 
 var info = document.getElementById("info");
 info.style.height = viewHEIGHT*0.1+"px";
