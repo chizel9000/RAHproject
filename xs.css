@@ -5,19 +5,19 @@
 }
 @font-face {
   font-family: sacredbridge;
-  src: url(font/sacredbridgeOTF/SacredBridge-Regular.otf);
+  src: url(font/SacredBridgeOTF/SacredBridge-Regular.otf);
 }
 @font-face {
   font-family: minionpro;
-  src: url(font/minionproOTF/MinionPro-Regular.otf);
+  src: url(font/MinionProOTF/MinionPro-Regular.otf);
 }
 @font-face {
   font-family: timegates;
-  src: url(font/timegatesOTF/Timegates-Regular.otf);
+  src: url(font/TimegatesOTF/Timegates-Regular.otf);
 }
 @font-face {
   font-family: primus;
-  src: url(font/primusTTF/PR-Columban-Primus.ttf);
+  src: url(font/PrimusTTF/PR-Columban-Primus.ttf);
 }
 
 @media only screen and (max-width: 500px) {
