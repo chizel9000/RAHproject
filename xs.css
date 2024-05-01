@@ -280,7 +280,13 @@
     overflow:hidden;
     padding:0;
 }
-
+#cover{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:0px;
+    
+}
     
 }
 
@@ -296,6 +302,13 @@
     font-size:1.5em;
 }
 */
+#cover{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:25px;
+    
+}
 .card span{
     font-family:timegates,serif;
     letter-spacing: 0.2rem;
@@ -902,13 +915,7 @@ button{
     
     
 }
-#cover{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:25px;
-    
-}
+
 
 #hl img{
     height:90%;
