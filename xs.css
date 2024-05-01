@@ -272,9 +272,13 @@
 .gcard{float:left; height:100px; width:100px; margin:0.5em;}
 .gcard img{height:100%; width:100%; border-radius:10px;}
 .gallery{
-    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
     width:100%;
-    padding:5%;
+    height:auto;
+    overflow:hidden;
+    padding:0;
 }
 
     
