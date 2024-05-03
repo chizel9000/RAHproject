@@ -342,8 +342,8 @@
 #welcome img {
     position:relative;
     height:75%;
-    width:75%;
-    margin:11%;
+    width:100%;
+    margin:13% -1%;
     
 }
     
@@ -800,7 +800,7 @@ body {
 #sbg{height:300%;}
 
 #navbar2{
-    background: #333;    
+    background: transparent;    
     display: flex;
     align-items: stretch; /* Default */
     justify-content: space-between;
