@@ -171,7 +171,7 @@ else{
     
 var foot = document.getElementById("foot");
     if(foot)
-foot.style.height = viewHEIGHT*0.5+"px";
+foot.style.height = viewHEIGHT+"px";
 
 var info = document.getElementById("info");
 info.style.height = viewHEIGHT*0.1+"px";
