@@ -18,6 +18,12 @@ var tlist = myDiv2.querySelectorAll(".fcard");
 function scale(){
 const viewWIDTH = Math.floor(innerWidth);
 const viewHEIGHT = Math.floor(innerHeight);
+    
+        var top = document.getElementById("top");
+    if(top)
+top.style.height = viewHEIGHT+"px"; 
+    
+    
     if(clist)
     clist.forEach((item) => {
      if(viewWIDTH < 500){
@@ -124,10 +130,9 @@ const viewHEIGHT = Math.floor(innerHeight);
 //var bod = document.body;
 //bod.style.height = viewHEIGHT;
 //bod.style.width = viewWIDTH;
-    var top = document.getElementById("tc");
-    if(top)
-top.style.height = viewHEIGHT+"px"; 
-    
+
+  
+/*
 if(viewWIDTH < 500){
    
 var logo = document.getElementById("logo");
@@ -160,11 +165,13 @@ else{
     if(welcome)
        welcome.style.height = viewHEIGHT*0.5+"px";
 }
+*/
 //var crew = document.getElementById("crew");
 //crew.style.height = viewHEIGHT*1.25+"px";
     
-//var foot = document.getElementById("foot");
-//foot.style.height = viewHEIGHT*0.5+"px";
+var foot = document.getElementById("foot");
+    if(foot)
+foot.style.height = viewHEIGHT*0.5+"px";
 
 var info = document.getElementById("info");
 info.style.height = viewHEIGHT*0.1+"px";

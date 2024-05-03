@@ -331,6 +331,21 @@
     margin-top: 15%;
     margin-left:-15%;
 }
+ 
+#logo img {
+    position:relative;
+    height:130%;
+    width:100%;
+    
+}
+
+#welcome img {
+    position:relative;
+    height:75%;
+    width:75%;
+    margin:11%;
+    
+}
     
 }
 
@@ -370,10 +385,13 @@
 }
     
     #navbar{
-    display:block;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
     position:fixed;
-    top: 50%;
-    width:20%;
+    top: 15%;
+    width:30%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -635,6 +653,22 @@
     margin-top: 7%;
     margin-left:-15%;
 }
+ 
+#logo img {
+    position:relative;
+    height:200%;
+    width:80%;
+    margin:0 10%;
+    
+}
+   
+#welcome img {
+    position:relative;
+    height:75%;
+    width:75%;
+    margin:5% 11%;
+    
+}
     
 }
 
@@ -844,17 +878,17 @@ button{
 #logo{
     float:left;
     position:absolute;
-    height:100%;
+    height:25%;
     width:100%;
     display:flex;
 }
-#logo img {
-    position:relative;
-    height:100%;
-    width:100%;
-    
+
+#welcome{
+    height:50%;
 }
 
+#blackmagic{ position:absolute; width:50%; height:50%;}
+#blackmagic img {height:65%;}
 .fcard {
     display: block;
     float:left;
