@@ -567,10 +567,14 @@
     /*background-color: whitesmoke;*/
 }
 .listitem span{
-    font-family:sans-serif;
+    font-family: primus;
+   font-weight: normal;
+    
+     
+   
     letter-spacing: 0.2rem;
     display:block;
-   font-weight: bold;
+  
     font-size: 3em;
     text-align:center;
     color:#b88c5b;
