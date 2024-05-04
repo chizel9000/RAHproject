@@ -239,8 +239,10 @@
 }
 .listitem span{
     display:block;
-   font-weight: bold;
-    font-size: 1.25em;
+    font-family: primus;
+   font-weight: normal;
+    font-size: 1em;
+     letter-spacing: 0.1rem;
     text-align:center;
     color:#b88c5b;
 }
