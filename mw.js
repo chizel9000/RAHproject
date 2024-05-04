@@ -206,6 +206,7 @@ foot.style.height = viewHEIGHT*0.75+"px";
 
 
 var info = document.getElementById("info");
+    if(info)
 info.style.height = viewHEIGHT*0.1+"px";
 
 console.log("h ",viewHEIGHT,"w ",viewWIDTH);
