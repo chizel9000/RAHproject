@@ -169,9 +169,41 @@ else{
 //var crew = document.getElementById("crew");
 //crew.style.height = viewHEIGHT*1.25+"px";
     
-var foot = document.getElementById("foot");
+if(viewWIDTH < 500){
+   
+var logo = document.getElementById("special");
+    if(logo)
+logo.style.height = viewHEIGHT*0.5+"px";
+    
+var welcome = document.getElementById("merch");
+    if(welcome)
+welcome.style.height = viewHEIGHT*0.5+"px";
+var concern = document.getElementById("mimic");
+    if(concern)
+concern.style.height = viewHEIGHT*0.5+"px";
+    var foot = document.getElementById("foot");
     if(foot)
 foot.style.height = viewHEIGHT*0.5+"px";
+}
+else{
+    
+    var logo = document.getElementById("special");
+    if(logo)
+        logo.style.height = viewHEIGHT+"px";
+
+        var welcome = document.getElementById("merch");
+            if(welcome)
+        welcome.style.height = viewHEIGHT+"px";
+        var concern = document.getElementById("mimic");
+            if(concern)
+        concern.style.height = viewHEIGHT+"px";
+    
+    var foot = document.getElementById("foot");
+    if(foot)
+foot.style.height = viewHEIGHT*0.75+"px";
+}
+    
+
 
 var info = document.getElementById("info");
 info.style.height = viewHEIGHT*0.1+"px";

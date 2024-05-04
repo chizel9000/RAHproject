@@ -65,9 +65,9 @@ const options = {
     rootMargin: "0px 0px -100px 0px"
 };
 var anim = document.getElementById("anim3");
-anim.style.height = viewHEIGHT+"px";   
+anim.style.height = viewHEIGHT*0.75+"px";   
 anim = document.getElementById("anim1");
-anim.style.height = viewHEIGHT+"px";
+anim.style.height = viewHEIGHT*0.75+"px";
 anim.style.width = viewWIDTH+"px";
 //anim.style.left = viewWIDTH*0.5+"px";
 anim = document.getElementById("anim2");
