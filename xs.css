@@ -1040,8 +1040,9 @@ button{
     
     
 }
-#cs{position:fixed; height:1300px; width:2000px; z-index:-100;}
-#space{height:1300px; width:2000px; position:absolute; background:url("img/RAH-Web-Background.jpg");  }
+#cs{position:fixed; height:1300px; width:3000px; z-index:-100;}
+#space{height:1300px; width:3000px; position:absolute; background:url("img/RAH-Web-Background.jpg");
+background-repeat: no-repeat; background-size: cover;}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
