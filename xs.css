@@ -351,6 +351,9 @@
    
 #bmm{position:absolute; left:0%;}
 #bms{height:300px; width:300px; top:-2em; z-index:-25;}
+    #cs{position:fixed; height:1300px; width:2000px; z-index:-100;}
+#space{height:1300px; width:2000px; position:absolute; background:url("img/RAH-Web-Background.jpg");
+background-repeat: no-repeat; background-size: cover;}
     
 }
 
@@ -671,7 +674,7 @@
  
 #logo img {
     position:relative;
-    height:225%;
+    height:100%;
     width:50%;
     margin:0 25%;
     
@@ -679,14 +682,17 @@
    
 #welcome img {
     position:relative;
-    height:75%;
+    height:100%;
     width:50%;
-    margin:5% 25%;
+    margin:0% 23%;
     
 }
    
 #bmm{height:400px; position:absolute; left:2%;}
 #bms{height:400px; width:400px; top:-8em; z-index:-25;}
+  #cs{position:fixed; height:1300px; width:3000px; z-index:-100;}
+#space{height:1300px; width:3000px; position:absolute; background:url("img/RAH-Web-Background.jpg");
+background-repeat: no-repeat; background-size: cover;}
     
 }
 
@@ -904,7 +910,7 @@ button{
 #logo{
     float:left;
     position:absolute;
-    height:25%;
+    height:50%;
     width:100%;
     display:flex;
 }
@@ -1040,9 +1046,7 @@ button{
     
     
 }
-#cs{position:fixed; height:1300px; width:3000px; z-index:-100;}
-#space{height:1300px; width:3000px; position:absolute; background:url("img/RAH-Web-Background.jpg");
-background-repeat: no-repeat; background-size: cover;}
+
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
