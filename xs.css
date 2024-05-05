@@ -253,7 +253,7 @@
     
 #bm{position:absolute; left:-10%; }
     
-#topper{height:200px;}
+#topper{height:200px; overflow:hidden;}
 
 #navbar2 li a{
     
@@ -589,7 +589,7 @@
     
 #bm{position:absolute; left:-10%; height:100%; width:45%;}
 
-    #topper{height:400px;}
+    #topper{height:400px; overflow:hidden;}
     
     #navbar2 li a{
     
@@ -600,6 +600,7 @@
     font-variant:small-caps;
     letter-spacing: 0.2rem;
     margin: auto;
+        
 }
  
 .cardc{
@@ -812,7 +813,7 @@ body {
 
 
 
-#sbg{height:230%; width:150%;}/*height:300%; width:115%;height:230%; width:150%;*/
+#sbg{height:230%; width:150%; }/*height:300%; width:115%;height:230%; width:150%;*/
 
 #navbar2{
     background: #222;    
@@ -821,13 +822,20 @@ body {
     justify-content: space-between;
     border-top: 10px solid #333;
     border-bottom: 10px solid #111;
+    padding: 5px 0;
 }
 #navbar2 li{
     position:relative;
     display:inline-block;
     margin: auto;
 }
-
+#foot{
+    background:url(img/Footer.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 10px solid #111;
+    padding: 5px 0 0 0;
+}
 
 #products{
     /*background:url(img/sbg.png);*/
