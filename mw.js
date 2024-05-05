@@ -1,5 +1,5 @@
 window.addEventListener("load", (event) => { scale(); });
-window.addEventListener("resize", (event) => { scale(); });
+//window.addEventListener("resize", (event) => { scale(); });
 
 var myDiv = document.getElementById("crew");
 if(myDiv)
