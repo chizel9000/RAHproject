@@ -203,9 +203,9 @@ else{
 foot.style.height = viewHEIGHT*0.75+"px";
 }
     
-var crew = document.getElementById("crew");
-    if(crew)
-crew.style.height = viewHEIGHT+"px";
+//var crew = document.getElementById("crew");
+  //  if(crew)
+//crew.style.height = viewHEIGHT+"px";
 
 var info = document.getElementById("info");
     if(info)
@@ -240,6 +240,7 @@ for(var i=0; i < list.length; i++){
 
 }
 var nav = document.getElementById("navbar");
+if(nav)
     nav.style.opacity = 1;
 function navigate(){
     //var nav = document.getElementById("navbar");
