@@ -65,12 +65,17 @@ const options = {
     rootMargin: "0px 0px -100px 0px"
 };
 var anim = document.getElementById("anim3");
-anim.style.height = viewHEIGHT*0.75+"px";   
+if(anim)
+anim.style.height = viewHEIGHT*0.75+"px";  
 anim = document.getElementById("anim1");
+if(anim)
+{
 anim.style.height = viewHEIGHT*0.75+"px";
 anim.style.width = viewWIDTH+"px";
 //anim.style.left = viewWIDTH*0.5+"px";
-anim = document.getElementById("anim2");
+}
+ anim = document.getElementById("anim2");
+
 const appearOnScroll = new IntersectionObserver
 (function(entries,appearOnScroll){
     
@@ -84,7 +89,7 @@ const appearOnScroll = new IntersectionObserver
     },options);
     
 });
-
+if(anim)
 appearOnScroll.observe(anim);
     
 var crew = document.getElementById("crew");

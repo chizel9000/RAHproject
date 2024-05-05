@@ -203,7 +203,9 @@ else{
 foot.style.height = viewHEIGHT*0.75+"px";
 }
     
-
+var crew = document.getElementById("crew");
+    if(crew)
+crew.style.height = viewHEIGHT+"px";
 
 var info = document.getElementById("info");
     if(info)
@@ -237,11 +239,14 @@ for(var i=0; i < list.length; i++){
     
 
 }
-
+var nav = document.getElementById("navbar");
+    nav.style.opacity = 1;
 function navigate(){
-    var nav = document.getElementById("navbar");
-    if(nav.style.opacity != 1)
-    {nav.style.opacity = 1; nav.style.left = 0;}
-    else
+    //var nav = document.getElementById("navbar");
+    //nav.style.opacity == 1
+    //else
+    if(nav.style.opacity == 1)
         {nav.style.opacity = 0; nav.style.left = -100+"px";}
+    else
+    {nav.style.opacity = 1; nav.style.left = 0;}
 }
