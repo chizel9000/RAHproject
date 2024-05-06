@@ -336,7 +336,7 @@
  
 #logo img {
     position:relative;
-    height:70%;
+    height:60%;
     width:100%;
     
 }
@@ -674,9 +674,9 @@ background-repeat: no-repeat; background-size: cover;}
  
 #logo img {
     position:relative;
-    height:100%;
-    width:50%;
-    margin:0 25%;
+    height:90%;
+    width:40%;
+    margin:0 30%;
     
 }
    
@@ -684,7 +684,7 @@ background-repeat: no-repeat; background-size: cover;}
     position:relative;
     height:100%;
     width:50%;
-    margin:0% 24%;
+    margin:0% 25%;
     
 }
    
