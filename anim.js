@@ -92,8 +92,8 @@ const appearOnScroll = new IntersectionObserver
 if(anim)
 appearOnScroll.observe(anim);
     
-var crew = document.getElementById("crew");
-crew.style.height = viewHEIGHT+"px";
+//var crew = document.getElementById("crew");
+//crew.style.height = viewHEIGHT+"px";
 
 list.forEach((item, index) => {
    if(index < current)

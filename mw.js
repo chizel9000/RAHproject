@@ -22,10 +22,13 @@ function scale(){
 const viewWIDTH = Math.floor(innerWidth);
 const viewHEIGHT = Math.floor(innerHeight);
     
-        var top = document.getElementById("top");
-    if(top)
-{top.style.height = viewHEIGHT+"px"; top.style.width = viewWIDTH+"px"; }
+  //      var top = document.getElementById("top");
+  //  if(top)
+//{top.style.height = viewHEIGHT+"px"; top.style.width = viewWIDTH+"px"; }
     
+    var crew = document.getElementById("crew");
+    if(crew)
+        crew.style.height = viewHEIGHT+"px";
     
     if(clist)
     clist.forEach((item) => {
