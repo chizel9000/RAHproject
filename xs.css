@@ -232,16 +232,17 @@
 }
 .listitem{
    
-    width:30%;
+    width:100%;
     height:auto;
     padding:0;
+    margin:1em;
     
 } 
 .listitem img {
-    height:100px;
-    width:100px;
-    margin-left:10%;
-    /*background-color: whitesmoke;*/
+    height:100%;
+    width:100%;
+    /*margin-left:10%;
+    background-color: whitesmoke;*/
 }
 .listitem span{
     display:block;
@@ -360,7 +361,18 @@
 #bms{height:300px; width:300px; top:-2em; z-index:-25;}
     #cs{position:fixed; height:1300px; width:2000px; z-index:-100;}
 #space{height:1300px; width:2000px; position:absolute; background:url("img/RAH-Web-Background.jpg");
-background-repeat: no-repeat; background-size: cover;}
+background-repeat: no-repeat; background-size: cover;
+    }
+    
+    .list{
+    
+    display:flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    /*flex-wrap: wrap;
+    margin:25% 0;*/
+        flex-direction: column;
+}
     
 }
 
@@ -705,7 +717,17 @@ background-repeat: no-repeat; background-size: cover;}
 #bms{height:400px; width:400px; top:-8em; z-index:-25;}
   #cs{position:fixed; height:1300px; width:3000px; z-index:-100;}
 #space{height:1300px; width:3000px; position:absolute; background:url("img/RAH-Web-Background.jpg");
-background-repeat: no-repeat; background-size: cover;}
+background-repeat: no-repeat; background-size: cover;
+    }
+   
+    .list{
+    
+    display:flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*margin:25% 0;*/
+}
     
 }
 
@@ -821,14 +843,7 @@ body {
     height:100%;
     width:100%;
 }
-.list{
-    
-    display:flex;
-    align-items: stretch; /* Default */
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    /*margin:25% 0;*/
-}
+
 
 
 
