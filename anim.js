@@ -37,8 +37,8 @@ element.onclick = (event) => {
     }
     else
         {current = 0; last=-1; next=1;}
-    namep.innerHTML = deta[current].name;
-    info.innerHTML = deta[current].desc;
+    //namep.innerHTML = deta[current].name;
+    //info.innerHTML = deta[current].desc;
     
 list.forEach((item, index) => {
    if(index < current)
@@ -54,8 +54,8 @@ list.forEach((item, index) => {
 }); 
     
 }
-    namep.innerHTML = deta[current].name;
-    info.innerHTML = deta[current].desc;
+   // namep.innerHTML = deta[current].name;
+   // info.innerHTML = deta[current].desc;
 /*
 list.forEach(item => {
    item.style.left = list.indexOf(item)*10+"px"; 

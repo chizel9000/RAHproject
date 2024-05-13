@@ -201,7 +201,7 @@
 }
 
 #scroll{
-    background:url("img/sbg.png");
+    /*background:url("img/sbg.png");*/
     background-size: contain;
     overflow:hidden;
     display:flex;
@@ -551,7 +551,7 @@ background-repeat: no-repeat; background-size: cover;
 }
 
 #scroll{
-    background:url("img/sbg.png");
+    /*background:url("img/sbg.png");*/
     background-size: contain;
     overflow:hidden;
     display:flex;
