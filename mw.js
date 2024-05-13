@@ -24,7 +24,7 @@ const viewHEIGHT = Math.floor(innerHeight);
     
         var top = document.getElementById("top");
     if(top)
-top.style.height = viewHEIGHT+"px"; 
+{top.style.height = viewHEIGHT+"px"; top.style.width = viewWIDTH+"px"; }
     
     
     if(clist)
@@ -178,9 +178,9 @@ var logo = document.getElementById("special");
     if(logo)
 logo.style.height = viewHEIGHT*0.5+"px";
     
-var welcome = document.getElementById("merch");
-    if(welcome)
-welcome.style.height = viewHEIGHT*0.5+"px";
+//var welcome = document.getElementById("merch");
+  //  if(welcome)
+//welcome.style.height = viewHEIGHT*0.5+"px";
 var concern = document.getElementById("mimic");
     if(concern)
 concern.style.height = viewHEIGHT*0.5+"px";
@@ -194,9 +194,9 @@ else{
     if(logo)
         logo.style.height = viewHEIGHT+"px";
 
-        var welcome = document.getElementById("merch");
-            if(welcome)
-        welcome.style.height = viewHEIGHT+"px";
+       // var welcome = document.getElementById("merch");
+        //    if(welcome)
+       // welcome.style.height = viewHEIGHT+"px";
         var concern = document.getElementById("mimic");
             if(concern)
         concern.style.height = viewHEIGHT+"px";

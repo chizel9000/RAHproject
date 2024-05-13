@@ -209,7 +209,7 @@
     align-items: center; 
     flex-direction:column;
     flex-wrap:wrap;
-    height:50%;
+    height:65%;
 }
 .slide {
     position:absolute;
@@ -559,7 +559,8 @@ background-repeat: no-repeat; background-size: cover;
     align-items: center; 
     flex-direction:column;
     flex-wrap:wrap;
-    height:60%;
+    height:100%;
+    top:5%
     
 }
 .slide {
@@ -1012,6 +1013,7 @@ button{
 .right {float:right;}
 .center {margin:auto;}
 .center2{margin-left:25%;}
+.center3{margin-left:15%;}
 .vert { height:50%; position:absolute; top:30%; left:25%;}
 .pill {
     width:22%;
