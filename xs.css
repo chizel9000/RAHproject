@@ -143,7 +143,13 @@
     font-size:0.6em;
 }
 
-
+#foot{
+    background:url(img/foot-logo.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 10px solid #111;
+    padding: 5px 0 0 0;
+}
 .footer li a:hover{}
 
 #title  {
@@ -476,7 +482,13 @@ background-repeat: no-repeat; background-size: cover;}
     font-size:1em;
 }
 
-
+#foot{
+    background:url(img/Footer.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 10px solid #111;
+    padding: 5px 0 0 0;
+}
 .footer li a:hover{}
     
 #title  {
@@ -836,13 +848,7 @@ body {
     display:inline-block;
     margin: auto;
 }
-#foot{
-    background:url(img/Footer.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border-top: 10px solid #111;
-    padding: 5px 0 0 0;
-}
+
 
 #products{
     /*background:url(img/sbg.png);*/
