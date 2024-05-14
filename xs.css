@@ -48,6 +48,8 @@
     font-size:1.5em;
 }
 */
+    #metal{height: 400px; width:100%;}
+    
 .card span{
     font-family:timegates,serif;
     letter-spacing: 0.2rem;
@@ -389,6 +391,8 @@ background-repeat: no-repeat; background-size: cover;
     font-size:1.5em;
 }
 */
+    #metal{height: 1080px; width:100%;}
+    
 #cover{
     position:absolute;
     bottom:0;
