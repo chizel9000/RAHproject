@@ -26,7 +26,7 @@ const viewHEIGHT = Math.floor(innerHeight);
   //  if(top)
 //{top.style.height = viewHEIGHT+"px"; top.style.width = viewWIDTH+"px"; }
     
-    var crew = document.getElementById("crew");
+    var crew = document.getElementById("hs");
     if(crew)
         crew.style.height = viewHEIGHT+"px";
     
