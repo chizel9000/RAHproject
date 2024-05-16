@@ -31,6 +31,9 @@ const viewHEIGHT = Math.floor(innerHeight);
         crew.style.height = viewHEIGHT+"px";
     var crew = document.getElementById("fs");
     if(crew)
+        if(viewWIDTH < 500)
+        crew.style.height = viewHEIGHT*0.5+"px";
+        else
         crew.style.height = viewHEIGHT+"px";
     if(clist)
     clist.forEach((item) => {
