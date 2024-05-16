@@ -30,15 +30,15 @@ element.onclick = (event) => {
     
 list.forEach((item, index) => {
    if(index < current)
-    item.style.left = -20+"%"; 
+    item.style.left = -100+"%"; 
     else if (index > current) 
-        item.style.left = 80+"%"; 
-    else item.style.left = 20+"%"; 
+        item.style.left = 100+"%"; 
+    else item.style.left = 0+"%"; 
         
     if(index == current) item.classList.add("activeSlide2");
     else item.classList.remove("activeSlide2");
-    if(index == last || index == next) item.classList.add("nextSlide");
-    else item.classList.remove("nextSlide");
+    if(index == last || index == next) item.classList.add("nextSlide2");
+    else item.classList.remove("nextSlide2");
 }); 
     
 }
@@ -84,13 +84,16 @@ appearOnScroll.observe(anim);
 
 list.forEach((item, index) => {
    if(index < current)
-    item.style.left = -20+"%"; 
+    item.style.left = -100+"%"; 
     else if (index > current) 
-        item.style.left = 80+"%"; 
-    else item.style.left = 20+"%"; 
+        item.style.left = 100+"%"; 
+    else item.style.left = 0+"%"; 
         
     if(index == current) item.classList.add("activeSlide2");
     else item.classList.remove("activeSlide2");
-    if(index == last || index == next) item.classList.add("nextSlide");
-    else item.classList.remove("nextSlide");
+    if(index == last || index == next) item.classList.add("nextSlide2");
+    else item.classList.remove("nextSlide2");
 }); 
+let intvalID;
+intvalID = setInterval(element.onclick,9000);
+

@@ -107,3 +107,6 @@ list.forEach((item, index) => {
     if(index == last || index == next) item.classList.add("nextSlide");
     else item.classList.remove("nextSlide");
 }); 
+
+let intvalID;
+intvalID = setInterval(element.onclick,5000);
