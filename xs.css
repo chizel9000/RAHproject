@@ -1245,7 +1245,8 @@ button{
 #minihead img {}
 
 #artgallery{position: absolute; top:0; display:none;}
-#namelogo{ width:130%; filter: drop-shadow(0px 0px 10px #000);}
+#namelogo{ width:130%; }
+/*filter: drop-shadow(0px 0px 10px #000);*/
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
 .scrollcontain::-webkit-scrollbar {
