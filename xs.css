@@ -1200,8 +1200,11 @@ button{
     
     
 }
+#backdrop{position:relative; }
+#backdrop img{object-fit: contain; }
+#content{background:transparent; }
 
-#content{background:#fcf4df;}
+#toptear{height:0px;}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
