@@ -262,3 +262,17 @@ function navigate(){
     else
     {nav.style.opacity = 1; nav.style.left = 0;}
 }
+
+
+function toggleGallery(){
+    console.log("click");
+    var gallery = document.getElementById("artgallery");
+    if(gallery)
+        if(gallery.style.display != "block")
+        gallery.style.display = "block";
+        else
+            gallery.style.display = "none";
+}
+
+
+
