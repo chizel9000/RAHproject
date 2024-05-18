@@ -1207,7 +1207,7 @@ button{
 
 #toptear{height:0px;}
 #ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
-#ceevee p {font-size: 1em;}
+#ceevee p {font-size: 1em; margin:0; padding:0;}
 #ceevee h1{margin:0.15em 0;}
 #ceevee h2{font-size:1em; color:#b0b5b8;}
 #ceevee span{}
