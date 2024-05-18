@@ -1214,27 +1214,30 @@ button{
     display: flex;
     align-items: stretch; /* Default */
     justify-content: space-between;
-    border-top: 10px solid #000;
-    border-bottom: 10px solid #000;
-    padding: 5px 0;
+    
+    padding: 0.5em 0;
 }
 #navbar3 li{
     position:relative;
     display:inline-block;
-    margin: auto;
+    
+    padding:1em;
     
 }
 #navbar3 li a{
     
     text-decoration: none;
     color:lightgrey;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: blackdrama,sans-serif;
     font-variant:small-caps;
     letter-spacing: 0.2rem;
-    margin: auto;
+    margin: 0.1em;
         
 }
+
+#minihead{}
+#minihead img {}
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
 .scrollcontain::-webkit-scrollbar {
