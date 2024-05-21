@@ -250,6 +250,39 @@ for(var i=0; i < list.length; i++){
     
 
 }
+
+function toggleMenu(){
+    console.log("rawr");
+    var mb = document.getElementById("menubar");
+    var navli = document.getElementById("navbar3")
+    if(navli)
+    var navlist = navli.querySelectorAll("li");
+    console.log(navlist);
+var nav = document.getElementById("navbar3");
+if(nav)    
+    if(nav.style.opacity != 1)
+       { 
+           nav.style.opacity = 1;
+            mb.src = "img/exit.png";
+           //nav.style.height = "100%";
+           nav.style.top = 100+"%";
+           navlist.forEach((item)=>{
+               item.style.position = "relative";
+           });
+       }
+    else
+        {
+            mb.src = "img/menubar.png";
+            nav.style.opacity = 0;
+           // nav.style.height = "0%";
+            nav.style.top = -100+"%";
+            navlist.forEach((item)=>{
+               item.style.position = "absolute";
+           });
+        }
+}
+
+
 var nav = document.getElementById("navbar");
 if(nav)
     nav.style.opacity = 1;

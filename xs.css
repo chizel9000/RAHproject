@@ -1215,25 +1215,43 @@ button{
 #ceevee ul li{color:#b0b5b8;}
 #avatar{top:-16em; position:relative; width:60%;}
 #siga{top:-4em;}
-#navbar3{
-    background: transparent;    
+#headlogo{
+    
+}
+#menubar{
+    position:relative;
     display: flex;
+    height:50px;
+    width:50px;
+    left:0;
+    padding:1em;
+    z-index:2;
+}
+#navbar3{
+       position:absolute;
+    top:-100%;
+    display: flex;
+     opacity:0;
+    flex-direction: column;
     align-items: stretch; /* Default */
     justify-content: space-between;
-    
-    padding: 0.5em 0;
+    z-index:2;
+    padding: 0;
+    transition: opacity 1s ease 0s, top 1s ease 0s;
 }
 #navbar3 li{
-    position:relative;
+    position:absolute;
     display:inline-block;
-    
+    background: url(img/transbg.png); 
     padding:1em;
+    
     
 }
 #navbar3 li a{
-    
+   
+    transition:color 0.25s ease 0.25s;
     text-decoration: none;
-    color:lightgrey;
+    color:grey;
     font-size: 1.5em;
     font-family: blackdrama,sans-serif;
     font-variant:small-caps;
@@ -1241,8 +1259,9 @@ button{
     margin: 0.1em;
         
 }
+#navbar3 li a:hover{ color:lightgrey;}
 #wid2{width:200%;}
-#minihead{}
+#minihead{height:auto; }
 #minihead img {}
 
 #artgallery{position: absolute; top:0; display:none;}
