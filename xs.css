@@ -149,7 +149,7 @@
 
 #foot{
     background:url(img/foot-logo.JPG);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border-top: 10px solid #111;
     padding: 5px 0 0 0;
@@ -381,8 +381,8 @@
     padding:0;
 }
     
-.gcard{float:left; height:100px; width:100px; margin:0.5em;}
-.gcard img{height:100%; width:100%; border-radius:10px;}
+/*.gcard{float:left; height:100px; width:100px; margin:0.5em;}
+.gcard img{height:100%; width:100%; border-radius:10px;}*/
 .gallery{
     display:flex;
     flex-wrap:wrap;
@@ -439,6 +439,31 @@ background-repeat: no-repeat; background-size: cover;
     margin:25% 0;*/
         flex-direction: column;
 }
+    #backdrop{
+        display:flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    }
+    #backdrop img{object-fit: cover; height:100%; width:50px; }
+    .bdslice{
+    height:250px;
+    width:50px;
+    float:left;
+    transition: transform 2s ease 0s;
+    z-index: 0;
+    position:relative;
+}
+    
+    
+    #ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
+#ceevee p {font-size: 1em; margin:0; padding:0;}
+#ceevee h1{margin:0.15em 0;}
+#ceevee h2{font-size:1em; color:#b0b5b8;}
+#ceevee span{}
+    
+#ceevee ul li{color:#b0b5b8; margin:0 1em;}
+#avatar{top:-8em; position:relative; width:60%;}
+#siga{top:-4em;}
     
 }
 
@@ -564,7 +589,7 @@ background-repeat: no-repeat; background-size: cover;
 
 #foot{
     background:url(img/Footer.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border-top: 10px solid #111;
     padding: 5px 0 0 0;
@@ -858,6 +883,27 @@ background-repeat: no-repeat; background-size: cover;
     flex-wrap: wrap;
     /*margin:25% 0;*/
 }
+  #backdrop img{object-fit: cover; height:100%; width:100px; }
+    .bdslice{
+    height:375px;
+    width:14%;
+    float:left;
+    transition: transform 2s ease 0s;
+    z-index: 0;
+    position:relative;
+}
+    .bdslice img{
+        height:375px;
+        width:14%;
+    }
+    #ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
+#ceevee p {font-size: 1em; margin:0; padding:0;}
+#ceevee h1{margin:0.15em 0;}
+#ceevee h2{font-size:1em; color:#b0b5b8;}
+#ceevee span{}
+#ceevee ul li{color:#b0b5b8;}
+#avatar{top:-16em; position:relative; width:60%;}
+#siga{top:-4em;}
     
 }
 
@@ -895,9 +941,16 @@ background-repeat: no-repeat; background-size: cover;
 .hover{
     animation: hover 3s ease infinite alternate;
 }
+.hover2{
+    animation: hover2 3s ease infinite alternate;
+}
 @keyframes hover{
     from {top:0px;}
     to {top:25px;}
+}
+@keyframes hover2{
+    from {top:25px;}
+    to {top:0px;}
 }
 
 body { 
@@ -1203,18 +1256,11 @@ button{
 }
 .bgcb{background-color: #000;}
 #backdrop{position:relative; }
-#backdrop img{object-fit: contain; }
+
 #content{background:transparent; }
 
 #toptear{height:0px;}
-#ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
-#ceevee p {font-size: 1em; margin:0; padding:0;}
-#ceevee h1{margin:0.15em 0;}
-#ceevee h2{font-size:1em; color:#b0b5b8;}
-#ceevee span{}
-#ceevee ul li{color:#b0b5b8;}
-#avatar{top:-16em; position:relative; width:60%;}
-#siga{top:-4em;}
+
 #headlogo{
     
 }
@@ -1251,7 +1297,7 @@ button{
    
     transition:color 0.25s ease 0.25s;
     text-decoration: none;
-    color:grey;
+    color:lightgrey;
     font-size: 1.5em;
     font-family: blackdrama,sans-serif;
     font-variant:small-caps;
@@ -1259,21 +1305,15 @@ button{
     margin: 0.1em;
         
 }
-#navbar3 li a:hover{ color:lightgrey;}
-#wid2{width:200%;}
+#navbar3 li a:hover{ color:whitesmoke;}
+.wid2{width:200%; margin:0 1em;}
 #minihead{height:auto; }
 #minihead img {}
 
 #artgallery{position: absolute; top:0; display:none;}
 #namelogo{ width:130%; }
 
-.bdslice{
-    height:375px;
-    width:auto;
-    float:left;
-    transition: transform 2s ease 0s;
-    z-index: 1;
-}
+
 .bdslice:hover{
    transform:scale(1.5); z-index: 100; 
 }
@@ -1284,7 +1324,7 @@ button{
 .bdslice:hover img {
     z-index: 100;
 }
-
+#hg{display:none;}
 /*filter: drop-shadow(0px 0px 10px #000);*/
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
