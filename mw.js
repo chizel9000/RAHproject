@@ -387,5 +387,5 @@ function toggleGallery(){
 }
 
 
-let intvalID;
-intvalID = setInterval(rippleCopy,250);
+//let intvalID;
+//intvalID = setInterval(rippleCopy,250);
