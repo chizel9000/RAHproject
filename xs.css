@@ -1294,7 +1294,7 @@ button{
     
 }
 #navbar3 li a{
-   
+   text-align: left;
     transition:color 0.25s ease 0.25s;
     text-decoration: none;
     color:lightgrey;
