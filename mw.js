@@ -388,4 +388,4 @@ function toggleGallery(){
 
 
 let intvalID;
-intvalID = setInterval(rippleCopy,125);
+intvalID = setInterval(rippleCopy,250);
