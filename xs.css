@@ -449,7 +449,7 @@ background-repeat: no-repeat; background-size: cover;
     height:250px;
     width:50px;
     float:left;
-    transition: transform 2s ease 0s;
+    transition: transform 0.5s ease 0s;
     z-index: 0;
     position:relative;
 }
@@ -888,7 +888,7 @@ background-repeat: no-repeat; background-size: cover;
     height:375px;
     width:14%;
     float:left;
-    transition: transform 2s ease 0s;
+    transition: transform 0.5s ease 0s;
     z-index: 0;
     position:relative;
 }

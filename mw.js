@@ -256,12 +256,31 @@ for(var i=0; i < list.length; i++){
     
 
 }
+var slicetrack = 0;
 var count = 6;    
 //var lengthcheck = 6;
 var slices = document.querySelectorAll("#backdrop > .bdslice > img");
     console.log(slices);
     var gallery = document.querySelectorAll("#hg > img");
     console.log(gallery);
+
+function rippleCopy(){
+    
+   // for(var i = 0; i < slices.length; i++){
+        if(slicetrack == slices.length)slicetrack=0;
+        if(count == gallery.length)count=0;
+       // console.log(count);
+            let seed = gallery[count].src;
+       // console.log(seed);
+            slices[slicetrack].src = seed;
+        
+        count++; slicetrack++;
+        
+  //  }
+    
+    
+}
+
 function listCopy(){
    // var gt = [];
     
@@ -369,4 +388,4 @@ function toggleGallery(){
 
 
 let intvalID;
-intvalID = setInterval(listCopy,3000);
+intvalID = setInterval(rippleCopy,125);
