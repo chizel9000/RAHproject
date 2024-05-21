@@ -342,7 +342,7 @@ if(nav)
     if(nav.style.opacity != 1)
        { 
            nav.style.opacity = 1;
-            mb.src = "img/exit.png";
+            mb.src = "img/Nav2.png";
            //nav.style.height = "100%";
            nav.style.top = 100+"%";
            navlist.forEach((item)=>{
@@ -351,7 +351,7 @@ if(nav)
        }
     else
         {
-            mb.src = "img/menubar.png";
+            mb.src = "img/nav1.png";
             nav.style.opacity = 0;
            // nav.style.height = "0%";
             nav.style.top = -100+"%";
