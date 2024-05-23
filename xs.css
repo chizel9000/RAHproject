@@ -464,7 +464,7 @@ background-repeat: no-repeat; background-size: cover;
     
     #ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
 #ceevee p {font-size: 1em; margin:0; padding:0;}
-#ceevee h1{margin:0.15em 0;}
+#ceevee h1{margin:0.15em 0; font-weight:normal;}
 #ceevee h2{font-size:1em; color:#b0b5b8;}
 #ceevee span{}
     
@@ -878,7 +878,7 @@ background-repeat: no-repeat; background-size: cover;
     padding:0;
 }
     
-.gcard{float:left; height:100%; width:100%; margin:2%; transition:transform 2s ease 0s; z-index:1;}
+.gcard{float:left; height:75%; width:75%; margin:2%; transition:transform 2s ease 0s; z-index:1;}
   /*  .gcard:hover{transform:scale(1.25); z-index: 200;}*/
 .gcard img{height:100%; width:100%; }
 .gallery{
@@ -949,7 +949,7 @@ background-repeat: no-repeat; background-size: cover;
     }
     #ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
 #ceevee p {font-size: 1em; margin:0; padding:0;}
-#ceevee h1{margin:0.15em 0;}
+#ceevee h1{margin:0.15em 0; font-weight:normal; font-variant:small-caps;}
 #ceevee h2{font-size:1em; color:#b0b5b8;}
 #ceevee span{}
 #ceevee ul li{color:#b0b5b8;}
@@ -1377,7 +1377,7 @@ button{
     text-decoration: none;
     color:whitesmoke;
     font-size: 1.5em;
-    font-family: blackdrama,sans-serif;
+    font-family: times new roman,sans-serif;
     font-variant:small-caps;
     letter-spacing: 0.2rem;
     margin: 0.1em;
@@ -1389,7 +1389,7 @@ button{
 #minihead img {}
 
 #artgallery{position: absolute; top:0; display:none;}
-#namelogo{ width:130%; }
+#namelogo{left:-0.5em; width:130%; position:relative; }
 
 
 .bdslice:hover{
