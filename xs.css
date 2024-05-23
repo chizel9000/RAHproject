@@ -116,6 +116,12 @@
     font-family: minionpro,Verdana, Arial, Helvetica, sans-serif;
     font-size:0.5em;
     margin-top:5%;
+    margin-left:auto;
+    text-align:left;
+    width:90%;
+}
+    .fcard a img{
+    height:1.5em; width:1.5em; top:0.5em;
 }
 
 .fcard h1 {
@@ -128,7 +134,7 @@
 
 .fcard p {
     font-size:0.35em;
-    color:grey;
+    color:#fef8ef;
     margin:5% 5%;
 }
     .card hr {
@@ -147,7 +153,7 @@
 }
 .fl li {
     text-decoration: none;
-    width:25%;
+    width:20%;
     height:75%;
     margin:0% 0%;
     padding:0%;
@@ -173,8 +179,9 @@
 
 #title  {
     text-align:center;
-     top:2%;
+     
     position:relative;
+    top:1%;
 }
 #title h1 {
    
@@ -193,6 +200,18 @@
     font-size: 1em;
     color:whitesmoke;
     text-shadow: black 0px 2px 1px
+}
+#title span {
+    font-size: 1em;
+    position:relative;
+    top:-0.25em;
+    
+} 
+#title img{
+    
+    position:relative;
+    width:10%;
+    object-fit: contain;
 }
     
 #deets{
@@ -457,7 +476,7 @@ background-repeat: no-repeat; background-size: cover;
     #backdrop{
         display:flex;
     align-items: stretch; /* Default */
-    justify-content: space-evenly;
+    justify-content: center;
     }
     #backdrop img{object-fit: cover; height:100%; width:50px; }
     .bdslice{
@@ -470,13 +489,15 @@ background-repeat: no-repeat; background-size: cover;
 }
     
     
-    #ceevee{ width:40%; position:relative; color:white; font-family: minionpro;}
-#ceevee p {font-size: 1em; margin:0; padding:0;}
-#ceevee h1{margin:0.15em 0; font-weight:normal;}
-#ceevee h2{font-size:1em; color:#b0b5b8;}
+    #ceevee{ width:40%; position:relative; color:#fef8e5; font-family: minionpro;}
+#ceevee p {font-size: 1em; margin:0; padding:0; color:#fef8e5;}
+#ceevee h1{margin:0.15em 0; font-weight:normal; font-size:1.25em;}
+#ceevee h1 img{height:1em; width:1em;} 
+#ceevee h2{font-size:0.8em; color:#fef8e5;}
+#ceevee h2 img{height:1em; width:1em;} 
 #ceevee span{}
     
-#ceevee ul li{color:#b0b5b8; margin:0 1em;}
+#ceevee ul li{color:#fef8e5; margin:0 1em;}
 #avatar{top:-8em; position:relative; width:60%;}
 #siga{top:-4em;}
 
@@ -514,6 +535,19 @@ background-repeat: no-repeat; background-size: cover;
     height:65px;
     width:65px;
 }
+    
+    #copy{
+    font-family: bible;
+    font-variant: small-caps;
+    height:auto;
+    
+    position:relative;
+        bottom:0px;
+    z-index:2;
+    text-align:center;
+    font-size:0.35em;
+}
+    #copy p{color:#fef8ef;}
     
 }
 
@@ -608,6 +642,9 @@ background-repeat: no-repeat; background-size: cover;
 .fcard a img{
     height:1.5em; width:1.5em; top:0.5em;
 }
+    .fl a img{
+    height:3em; width:3em; 
+}
 
 .fcard h1 {
     color: #f5ca00;
@@ -619,7 +656,7 @@ background-repeat: no-repeat; background-size: cover;
 
 .fcard p {
     font-size:1em;
-    color:grey;
+    color:#fef8e5;
     margin:2% 2%;
 }
 .card hr {
@@ -675,7 +712,7 @@ background-repeat: no-repeat; background-size: cover;
     
 #title  {
     text-align:center;
-     top:1%;
+     top:0%;
     position:relative;
 }
 #title h1 {
@@ -696,7 +733,11 @@ background-repeat: no-repeat; background-size: cover;
     color:whitesmoke;
     text-shadow: black 0px 2px 1px
 }
-    
+#title img{
+    position:relative;
+    width:5%;
+    object-fit: contain;
+}  
 #deets{
     width:100%;
     position:absolute;
@@ -960,9 +1001,14 @@ background-repeat: no-repeat; background-size: cover;
     flex-wrap: wrap;
     /*margin:25% 0;*/
 }
-  #backdrop img{object-fit: cover; height:100%; width:100px; }
+     #backdrop{
+        display:flex;
+    align-items: stretch; /* Default */
+    justify-content: center;
+    }
+  #backdrop img{object-fit: cover; height:100%; width:100%; }
     .bdslice{
-    height:375px;
+    height:500px;
     width:14%;
     float:left;
     transition: transform 0.5s ease 0s;
@@ -970,8 +1016,9 @@ background-repeat: no-repeat; background-size: cover;
     position:relative;
 }
     .bdslice img{
-        height:375px;
-        width:14%;
+        height:100%;
+        width:100%;
+        object-fit: cover;
     }
 #ceevee{ width:40%; position:relative; color:white; font-family: minionproMed;}
     
@@ -1021,6 +1068,21 @@ background-repeat: no-repeat; background-size: cover;
     height:165px;
     width:165px;
 }
+    
+    #copy{
+    font-family: bible;
+    font-variant: small-caps;
+    height:auto;
+    bottom:0px;
+    position:relative;
+    z-index:2;
+    text-align:center;
+    font-size:0.5em;
+       
+}
+    #copy p{
+         color: #fef8e5;
+    }
     
 }
 
@@ -1425,10 +1487,10 @@ button{
 .bdslice:hover{
    transform:scale(1.25); z-index: 100; 
 }
-.bdslice img{
+/*.bdslice img{
     object-fit: contain;
     z-index: -1;
-}
+}*/
 .bdslice:hover img {
     z-index: 100;
 }
@@ -1450,26 +1512,13 @@ button{
     position:absolute;
     z-index:2;
 }
-#copy{
-    font-family: bible;
-    font-variant: small-caps;
-    height:auto;
-    bottom:0px;
-    position:relative;
-    z-index:2;
-    text-align:center;
-    font-size:0.5em;
-}
+
 #ft img{
     position:relative;
     bottom:-10px;
 }
 
-#title img{
-    position:relative;
-    width:5%;
-    object-fit: contain;
-}
+
 #title span{
     display:inline;
 }
