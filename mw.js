@@ -102,8 +102,20 @@ const viewHEIGHT = Math.floor(innerHeight);
         bb.classList.remove("hwcard");
         bb.classList.add("card");
         }
+        var bcc = document.getElementById("of");
+        if(bcc)
+            bcc.style.display = "none";
+        var bcc = document.getElementById("bcc");
+        if(bcc)
+            bcc.style.display = "block";
     }
     else{
+        var bcc = document.getElementById("of");
+        if(bcc)
+            bcc.style.display = "block";
+        var bcc = document.getElementById("bcc");
+        if(bcc)
+            bcc.style.display = "none";
         var mc = document.getElementById("mescen");
         if(mc){
         mc.classList.remove("card");

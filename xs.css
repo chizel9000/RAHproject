@@ -709,11 +709,18 @@ background-repeat: no-repeat; background-size: cover;
 .fcard h1 {
     color: #f5ca00;
     text-decoration: none;
-    font-weight: bold;
-    font-family: blackdrama,Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-family: minionproMed,Verdana, Arial, Helvetica, sans-serif;
     font-size:1.5em;
 }
-
+.fcard h2 {
+    color: red;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: bible,Verdana, Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    letter-spacing: 0.2rem;
+}
 .fcard p {
     font-size:1em;
     color:#fef8e5;
