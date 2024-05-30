@@ -753,7 +753,7 @@ background-repeat: no-repeat; background-size: cover;
 }
 .fl li {
     text-decoration: none;
-    width:20%;
+    width:18%;
     height:75%;
     margin:0% 0%;
     padding:0%;
@@ -1096,7 +1096,7 @@ background-repeat: no-repeat; background-size: cover;
 #ceevee{ width:40%; position:relative; color:white; font-family: minionproMed;}
     
 #ceevee p {font-size: 1em; margin:0; padding:0; color:#fef8e5; font-family: minionpro;}
-#ceevee h1{margin:0.15em 0; font-size: 1.5em; font-weight:normal; font-variant:small-caps;}
+#ceevee h1{margin:0.15em 0; font-size: 1.5em; font-weight:normal; font-variant:small-caps; color:#fef8ef;}
 #ceevee h1 img{height:1em; width:1em;} 
 #ceevee h2{font-size:1em; color:#fef8e5; font-family: minionpro;  font-weight:normal;}
 #ceevee h2 img{height:1em; width:1em;}    
@@ -1154,7 +1154,7 @@ background-repeat: no-repeat; background-size: cover;
        
 }
     #copy p{
-         color: #fef8e5;
+         color: wheat;
     }
     
     #bc{
@@ -1654,6 +1654,15 @@ button{
 #title span{
     display:inline;
 }
+
+#bracketing2{
+    position:absolute;
+    z-index:3;
+    display:flex;
+    bottom:0;
+}
+
+
 /*filter: drop-shadow(0px 0px 10px #000);*/
 /* Hide scrollbar for Chrome, Safari and Opera */
 /*
