@@ -563,7 +563,7 @@ background-repeat: no-repeat; background-size: cover;
 }
 #bc a{
     width:70%;
-    text-align:left;
+    text-align:center;
     text-decoration: none;
     color:#fef8ef;
     font-size:1em;
@@ -1673,4 +1673,5 @@ button{
   background: #000; 
 }
 */
-
+.smol{display:flex; justify-content: center;}
+.smol img {height:50px; width:50px; }
