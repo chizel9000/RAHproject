@@ -1102,7 +1102,7 @@ background-repeat: no-repeat; background-size: cover;
 #ceevee h2 img{height:1em; width:1em;}    
 #ceevee span{}
 #ceevee ul {margin-left:1em;}
-#ceevee ul li{color:#fef8e5;}
+#ceevee ul li{color:#fef8e5; margin:1em 1em;}
 #avatar{top:-16em; position:relative; width:60%;}
 #siga{top:-4em;}
  
@@ -1675,3 +1675,18 @@ button{
 */
 .smol{display:flex; justify-content: center;}
 .smol img {height:50px; width:50px; }
+#stats{width:100%;}
+#sl{width:50%; height:100px;}
+#sl span {width:100%;  height:40px; font-size:1em; text-align:left;}
+#pts{width:50%; height:100px;}
+#pts span {width:100%;  height:40px;  font-size:1em; text-align: right; margin-right:0%;}
+
+#introscene{
+    position:fixed;
+    display:block;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index:1000;
+}
+#fgx{height:100%; width:100%; object-fit: cover;}
