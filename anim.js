@@ -156,7 +156,13 @@ list.forEach((item, index) => {
 const dir =1;
 let intvalID;
 intvalID = setInterval(scrollClickA,5000);
-const al = "artist-name.html"
+const al = "artist-al.html";
+const damian = "artist-damian.html";
+const isuru = "artist-isuru.html";
+const natiavelli = "artist-natiavelli.html";
+const victor = "artist-victor.html";
+const wendy = "artist-wendy.html";
+const yorden = "artist-yorden.html";
 function moveto(name){
     window.location.href = name;
 }
