@@ -24,10 +24,56 @@ var list = document.querySelectorAll(".slide");
     console.log(list);
 //var viewHeight = innerHeight;
 //var viewWidth = innerWidth;
-element.onclick = (event) => {
+//element.onclick = (event) => 
+function scrollClick(director){
     //scrollcounter++;
     //console.log(scrollcounter);
     
+    if(director == -1)
+    if(last == -1){
+        current = list.length -1;
+        next = list.length;
+        last = list.length -2;
+    }
+    else 
+        {
+        if(next > -list.length)
+    {
+        current += director;
+        last += director;
+        next += director;
+    }        
+        }
+    if(director == 1)
+    if(next < list.length)
+    {
+        current += director;
+        last += director;
+        next += director;
+    }
+    else
+        {current = 0; last=-1; next=1;}
+    //namep.innerHTML = deta[current].name;
+    //info.innerHTML = deta[current].desc;
+    
+list.forEach((item, index) => {
+   if(index < current)
+    item.style.left = -20+"%"; 
+    else if (index > current) 
+        item.style.left = 80+"%"; 
+    else item.style.left = 20+"%"; 
+        
+    if(index == current) item.classList.add("activeSlide");
+    else item.classList.remove("activeSlide");
+    if(index == last || index == next) item.classList.add("nextSlide");
+    else item.classList.remove("nextSlide");
+}); 
+    
+}
+
+function scrollClickA(){
+    //scrollcounter++;
+    //console.log(scrollcounter);
     
     if(next < list.length)
     {
@@ -107,6 +153,10 @@ list.forEach((item, index) => {
     if(index == last || index == next) item.classList.add("nextSlide");
     else item.classList.remove("nextSlide");
 }); 
-
+const dir =1;
 let intvalID;
-intvalID = setInterval(element.onclick,5000);
+intvalID = setInterval(scrollClickA,5000);
+const al = "artist-name.html"
+function moveto(name){
+    window.location.href = name;
+}
